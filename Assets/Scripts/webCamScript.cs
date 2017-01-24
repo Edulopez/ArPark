@@ -22,18 +22,6 @@ public class webCamScript : MonoBehaviour {
 		WebCamTexture webCameraTexture = new WebCamTexture();
 		webCameraPlane.GetComponent<MeshRenderer>().material.mainTexture = webCameraTexture;
 		webCameraTexture.Play();
-
-
-        //var camera = this.GetComponent<Camera>();
-
-        //var frustumHeight = GetFrustumHeight(PlaneDistance, camera);
-        //webCameraPlane.transform.localScale = new Vector3(frustumHeight, 1, frustumHeight * camera.aspect);
-
-        //webCameraPlane.transform.position =
-        //    new Vector3(webCameraPlane.transform.position.x,
-        //    webCameraPlane.transform.position.x,
-        //    PlaneDistance);
-
     }
 
 	

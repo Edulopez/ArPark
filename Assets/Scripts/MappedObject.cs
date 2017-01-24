@@ -24,7 +24,8 @@ public class MappedObject : MonoBehaviour {
         distance = Mathf.Abs(distance);
         distanceToReference = distance;
 
-        text.text = "Lat: " + referenceLocation.latitude + "\n Lng: " + referenceLocation.longitude + "\n Distance: " + distance;
+        if (text !=null)
+            text.text = "Lat: " + referenceLocation.latitude + "\n Lng: " + referenceLocation.longitude + "\n Distance: " + distance;
     }
 
     void ChangeScale (float x , float y , float z)
