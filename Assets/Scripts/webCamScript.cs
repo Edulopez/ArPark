@@ -22,6 +22,8 @@ public class webCamScript : MonoBehaviour {
 		WebCamTexture webCameraTexture = new WebCamTexture();
 		webCameraPlane.GetComponent<MeshRenderer>().material.mainTexture = webCameraTexture;
 		webCameraTexture.Play();
+
+        Screen.orientation = ScreenOrientation.Landscape;
     }
 
 	
