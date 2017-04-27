@@ -1,2 +1,3 @@
 # ArPark
-Augmented Reality Park
+Location based and markless augmented reality park
+
